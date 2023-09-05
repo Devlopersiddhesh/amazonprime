@@ -1,0 +1,415 @@
+body
+{font-family: 'PT Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#nav 
+{  
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 54px;
+   
+}
+
+
+#nav #prime
+{
+margin-top: 14px;
+text-decoration: none;
+color: white;
+font-size: 20px;
+}
+
+#nav #left #menu 
+{
+ display: flex;
+}
+
+#nav #left #menu li 
+{
+    list-style-type: none;
+}
+
+#nav #left #menu li a
+{
+    color:rgba(255, 255, 255, 0.603);
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+#nav #right #menu2 
+{
+    display: flex;
+    
+}
+
+#nav #right #menu2 li 
+{
+    
+    list-style-type: none;
+    padding-left: 40px;
+    gap: 20px;
+}
+
+#nav #right #menu2 li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.603);
+    font-weight: 900;
+
+}
+
+#nav #right #menu2 li img
+{
+    margin-top: -4px;
+}
+
+
+
+.fa.fa-search
+{
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.603);;
+}
+
+/* #houl
+{
+    padding: 0px;
+    position: relative;
+    display: none;
+}
+
+#ho:hover #houl
+{
+    
+} */
+
+
+
+#Welcome
+{
+    background-image: url(./images/welcomeaz.jpg);
+    padding-top: 10px;
+    padding-bottom: 10rem;
+    background-size: 100%;
+    color: #ffffff;
+}
+
+#Welcome h1,p,button
+{
+    margin-top: 6rem;
+    margin-left: 4rem;
+}
+
+#Welcome h1
+{
+    font-size: 45px;
+    font-weight: 100;
+}
+
+#Welcome p
+{     margin-top: 0px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+#Welcome button
+{
+    margin-top: 0px;
+    font-size: 16px;
+    padding: 16px 72px;
+    background-color: #0f79af;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+}
+
+#rental
+{
+    background-image: url(./images/rentalamzon.JPG);
+    padding-top: 10px;
+    padding-bottom: 10rem;
+    background-size: 100%;
+    color: #ffffff;
+}
+
+#rental #h1,#p,#button
+{
+    margin-top: 8rem;
+    margin-left: 45rem;
+}
+
+#rental #h1
+{
+    font-size: 43px;
+    font-weight: 100;
+    margin-bottom: 19px;
+}
+
+#rental #p
+{     margin-top: 0px;
+    font-size: 22px;
+    font-weight: 100;
+    margin-bottom: 43px;
+}
+
+#rental #button
+{
+    margin-top: 0px;
+    font-size: 16px;
+    padding: 16px 102px;
+    background-color: #0f79af;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+}
+
+#favchannel
+{
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+#favchannel #right1,#left1
+{
+    width: 100%;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+#right1 #top1
+{
+    display: flex;
+
+}
+
+#right1 #top1 div img
+{
+    width: 98%;
+    
+}
+
+#right1 #top2
+{
+    display: flex;
+
+}
+
+#right1 #top2 div img
+{
+    width: 98%;
+    
+}
+
+#right1 #bottom1
+{
+    display: flex;
+
+}
+
+
+#right1 #bottom1 div img
+{
+    width: 98%;
+    
+}
+
+#right1 #bottom2
+{
+    display: flex;
+
+}
+
+
+#right1 #bottom2 div img
+{
+    width: 98%;
+    
+}
+
+#right1 img:hover
+{
+  margin: 1px;
+  box-shadow: -3px -3px 7px black;
+  
+
+} 
+
+#left1
+{
+    margin-top: -10px;
+}
+
+#left1 h1
+{
+font-size: 46px;
+font-weight: inherit;
+padding-left: 59px;
+margin-bottom: 15px;
+}
+
+#left1 p
+{
+    margin-top: 0px;
+    font-size: 25px;
+    color: #001829;
+    font-weight: 100;
+}
+
+#firetv
+{
+    background-image: url(./images/firetv.jpg);
+    padding-top: 30px;
+    padding-bottom: 110px;
+    background-size: 100%;
+    color: #ffffff;
+}
+
+
+#firetv #fireh1,#firep,#firebu
+{
+    margin-top: 8rem;
+    margin-left: 45rem;
+}
+
+#firetv #fireh1
+{
+    font-size: 43px;
+    font-weight: 100;
+    margin-bottom: 19px;
+    margin-top: 22px;
+}
+
+#firetv #firep
+{     margin-top: 0px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 43px;
+}
+
+#firetv #firebu
+{
+    margin-top: 0px;
+    font-size: 16px;
+    padding: 16px 102px;
+    background-color: #0f79af;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+}
+
+#family
+{
+    background-image: url(./images/family.jpg);
+    padding-top: 30px;
+    padding-bottom: 110px;
+    background-size: 100%;
+    color: #ffffff;
+}
+
+#family #famh1,#famp,#fambutton
+{
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+#family #famh1
+{
+    font-size: 41px;
+    font-weight: 100;
+}
+
+#family #famp
+{     margin-top: 0px;
+    font-size: 21px;
+    font-weight: 100;
+}
+
+#family #fambu
+{
+    margin-top: 23px;
+    font-size: 16px;
+    padding: 16px 95px;
+    background-color: #0f79af;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+}
+
+#social
+{
+    background-color: #222222;
+    text-align: center;
+}
+
+#social #terms
+{
+    margin-top: -19px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  color: #156686;
+}
+
+#social #terms h4
+{
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+
+#social #pf
+{
+    padding-top: 25px;
+}
+
+#social #para
+{
+   margin-top: 0px;
+   color: gray;
+  padding-bottom: 40px;
+  margin-bottom: 0px;
+}
+
+/* 
+=====mobile version======= */
+
+@media(max-width:600px)
+{
+
+body{
+    width: 251%;
+}
+
+#nav 
+{  
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 54px;
+   
+}
+
+
+
+}
